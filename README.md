@@ -2,6 +2,7 @@
 Eschabuyer will buy all temporary escha items that are not currently in your inventory except the primeval brew item without having to slog through the menu. Please note that this addon injects packets extensively so please take that into consideration and use at you own risk. There are some notes on the risks with this addon at the bottom section of this README.
 
 Note: This addon can soft lock windower if you use the buy command and your inventory has not yet loaded. This can happen if you load the addon right after zoning and use the buy command before your inventory has loaded.
+
 Note: This addon will buy temp items that you have not yet unlocked, so this could result in a higher risk when using this addon.
 ___
 ### Usage notes
