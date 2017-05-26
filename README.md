@@ -1,10 +1,10 @@
-#EschaBuyer
+# EschaBuyer
 Eschabuyer will buy all temporary escha items that are not currently in your inventory except the primeval brew item without having to slog through the menu. Please note that this addon injects packets extensively so please take that into consideration and use at you own risk. There are some notes on the risks with this addon at the bottom section of this README.
 
 Note: This addon can soft lock windower if you use the buy command and your inventory has not yet loaded. This can happen if you load the addon right after zoning and use the buy command before your inventory has loaded.
 Note: This addon will buy temp items that you have not yet unlocked, so this could result in a higher risk when using this addon.
 ___
-#Usage notes
+### Usage notes
 
 1. After downloading, to use eschabuyer you must first unzip the folder in your addons folder. Be sure to rename this folder to eschabuyer.
 
@@ -63,7 +63,7 @@ ___
 
 ___
 
-#Commands
+### Commands
    * help|h Display all valid commands.   
    * reload|r Reload cellbuyer.   
    * unload|u Unload cellbuyer.   
@@ -76,7 +76,7 @@ ___
 
 ___
 
-#Warnings
+### Warnings
 
 There are some things to keep in mind when setting your delay values. The first is that it takes me about 10 seconds to manually buy the first temp item from the point of targetting the relevant npc through navigating the menu. It takes me about 8 seconds to manually buy one item after buying another. It takes about 3 seconds to even be able to interact with the escha npc menu. Hopefully this explains the choice for the default delay values. For the start delay value you can probably start to look suspicious if you change this value below 10 seconds, and yet even more suspicious if you set it under 3 seconds. The minimum settable value for the start delay is 0 seconds. Similarly consider that you will likely look suspicious if you set the delay value under 8 seconds. The lowest purchase delay value you can set for this addon is 0.2 seconds.
 
